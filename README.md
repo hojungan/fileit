@@ -13,4 +13,4 @@ Features:
 - View logs for any errors
 
 
-[https://github.com/hojungan/fileit/raw/main/bin/Release/net6.0-windows/FileIT.exe](Download executable)
+[Download executable](https://github.com/hojungan/fileit/raw/main/bin/Release/net6.0-windows/FileIT.exe)
