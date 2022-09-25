@@ -1,8 +1,8 @@
 namespace FileIT
 {
-    public partial class fileit : Form
+    public partial class FileIT : Form
     {
-        public fileit()
+        public FileIT()
         {
             InitializeComponent();
         }

@@ -31,6 +31,11 @@ namespace FileIT
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(labelSource.Text))
+            {
+                MessageBox.Show("Missing directory path", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             dataGridViewFileList.Rows.Clear();
             searchBgw.RunWorkerAsync();
         }

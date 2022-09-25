@@ -1,6 +1,6 @@
 ﻿namespace FileIT
 {
-    partial class fileit
+    partial class FileIT
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fileit));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FileIT));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.searchControl = new FileIT.SearchControl();
-            this.homeControl = new FileIT.HomeControl();
-            this.logControl = new FileIT.LogControl();
+            this.searchControl = new global::FileIT.SearchControl();
+            this.homeControl = new global::FileIT.HomeControl();
+            this.logControl = new global::FileIT.LogControl();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
