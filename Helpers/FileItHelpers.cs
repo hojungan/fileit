@@ -33,6 +33,24 @@ namespace FileIT.Helpers
         }
 
         /// <summary>
+        /// Open file dialog
+        /// </summary>
+        /// <returns></returns>
+        public static string? OpenCSVFile()
+        {
+            OpenFileDialog fbd = new OpenFileDialog();
+            fbd.Filter = "CSV (*.csv) | *.csv";
+            DialogResult result = fbd.ShowDialog();
+
+            if(result == DialogResult.OK)
+            {
+                return fbd.FileName;
+            }
+
+            return null;
+        }
+
+        /// <summary>
         /// Filters files by its last modified date that is in bewteen "from" and "to" (including "from" and "to"), then returns number of files found.
         /// </summary>
         /// <param name="from">Date of file's last modified date</param>
@@ -277,7 +295,7 @@ namespace FileIT.Helpers
             return dir.GetDirectories().Length == 0 && dir.GetFiles().Length == 0;
         }
 
-        internal static bool DeleteFiles(string source, bool recursive, BackgroundWorker bgw)
+        public static bool DeleteFiles(string source, bool recursive, BackgroundWorker bgw)
         {
             int progress = 0;
             bool errors = false;
@@ -301,6 +319,20 @@ namespace FileIT.Helpers
             }
 
             return errors;
+        }
+
+        /// <summary>
+        /// Check if path is URL or file path
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public static bool IsURL(string path)
+        {
+            Uri uriResult;
+            bool result = Uri.TryCreate(path, UriKind.Absolute, out uriResult)
+                && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
+
+            return result;
         }
     }
 }

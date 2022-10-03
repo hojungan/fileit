@@ -68,10 +68,22 @@
     <value>Home</value>
   </data>
   <data name="searchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 20</value>
+    <value>180, 22</value>
   </data>
   <data name="searchToolStripMenuItem.Text" xml:space="preserve">
     <value>Search</value>
+  </data>
+  <data name="compareToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="compareToolStripMenuItem.Text" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="toolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools</value>
   </data>
   <data name="logsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
@@ -99,9 +111,57 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="logControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="logControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>986, 598</value>
+  </data>
+  <data name="logControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;logControl.Name" xml:space="preserve">
+    <value>logControl</value>
+  </data>
+  <data name="&gt;&gt;logControl.Type" xml:space="preserve">
+    <value>FileIT.LogControl, FileIT, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;logControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;logControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="compareControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="compareControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="compareControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>986, 598</value>
+  </data>
+  <data name="compareControl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;compareControl.Name" xml:space="preserve">
+    <value>compareControl</value>
+  </data>
+  <data name="&gt;&gt;compareControl.Type" xml:space="preserve">
+    <value>FileIT.CompareControl, FileIT, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;compareControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;compareControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="searchControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -112,7 +172,7 @@
     <value>986, 598</value>
   </data>
   <data name="searchControl.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;searchControl.Name" xml:space="preserve">
     <value>searchControl</value>
@@ -136,7 +196,7 @@
     <value>986, 598</value>
   </data>
   <data name="homeControl.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;homeControl.Name" xml:space="preserve">
     <value>homeControl</value>
@@ -149,30 +209,6 @@
   </data>
   <data name="&gt;&gt;homeControl.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="logControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="logControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="logControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>986, 598</value>
-  </data>
-  <data name="logControl.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;logControl.Name" xml:space="preserve">
-    <value>logControl</value>
-  </data>
-  <data name="&gt;&gt;logControl.Type" xml:space="preserve">
-    <value>FileIT.LogControl, FileIT, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;logControl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;logControl.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -195,10 +231,22 @@
   <data name="&gt;&gt;homeToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;toolStripMenuItem.Name" xml:space="preserve">
+    <value>toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;searchToolStripMenuItem.Name" xml:space="preserve">
     <value>searchToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;searchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;compareToolStripMenuItem.Name" xml:space="preserve">
+    <value>compareToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;compareToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;logsToolStripMenuItem.Name" xml:space="preserve">
@@ -208,7 +256,7 @@
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>fileit</value>
+    <value>FileIT</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

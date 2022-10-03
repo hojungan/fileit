@@ -93,7 +93,7 @@
             this.panelSearchOptions.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSearchOptions.Location = new System.Drawing.Point(0, 60);
             this.panelSearchOptions.Name = "panelSearchOptions";
-            this.panelSearchOptions.Size = new System.Drawing.Size(990, 68);
+            this.panelSearchOptions.Size = new System.Drawing.Size(990, 66);
             this.panelSearchOptions.TabIndex = 3;
             // 
             // buttonSearch
@@ -174,12 +174,12 @@
             this.OpenFolder});
             this.dataGridViewFileList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewFileList.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridViewFileList.Location = new System.Drawing.Point(0, 128);
+            this.dataGridViewFileList.Location = new System.Drawing.Point(0, 126);
             this.dataGridViewFileList.MultiSelect = false;
             this.dataGridViewFileList.Name = "dataGridViewFileList";
             this.dataGridViewFileList.ReadOnly = true;
             this.dataGridViewFileList.RowTemplate.Height = 25;
-            this.dataGridViewFileList.Size = new System.Drawing.Size(990, 436);
+            this.dataGridViewFileList.Size = new System.Drawing.Size(990, 438);
             this.dataGridViewFileList.TabIndex = 10;
             this.dataGridViewFileList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewFileList_CellClick);
             // 

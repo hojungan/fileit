@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_ADB09650343D4C38A78BA138A2A6151B"
+        "MsmKey" = "8:_8854625D078A4C3BA4F86D15B64A3B32"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -43,6 +43,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -59,6 +67,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -76,6 +92,16 @@
         {
             "LaunchCondition"
             {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_5EEC9DCB5293417B8A5CEEA42653511F"
+                {
+                "Name" = "8:.NET Core"
+                "Message" = "8:[VSDNETCOREMSG]"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
+                "IsNETCore" = "11:TRUE"
+                "Architecture" = "2:0"
+                "Runtime" = "2:0"
+                }
             }
         }
         "File"
@@ -277,21 +303,21 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_64C5DD1E92884BF0B2C74B0298F5D8E4"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2168676E20D64F1699839CA41AEC4C82"
             {
-            "Name" = "8:FileIT"
+            "Name" = "8:FileIt"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_ADB09650343D4C38A78BA138A2A6151B"
+            "Target" = "8:_8854625D078A4C3BA4F86D15B64A3B32"
             "Folder" = "8:_BA3A0FDE0AA64C8B993431B5FFCDAA67"
             "WorkingFolder" = "8:_4CCF55D1BF884BAFAA097402AAC7FF74"
             "Icon" = "8:_FEED911438CB4183A6BAD2808C812DB1"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DFBB7D73B43B496882925C56DD42A575"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6BFCA08CCA5F4CBA909097BD0BCE8ACC"
             {
             "Name" = "8:FileIT"
             "Arguments" = "8:"
@@ -299,7 +325,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_ADB09650343D4C38A78BA138A2A6151B"
+            "Target" = "8:_8854625D078A4C3BA4F86D15B64A3B32"
             "Folder" = "8:_5986AE81D873441996FF71B2030515AC"
             "WorkingFolder" = "8:_4CCF55D1BF884BAFAA097402AAC7FF74"
             "Icon" = "8:_FEED911438CB4183A6BAD2808C812DB1"
@@ -704,9 +730,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_ADB09650343D4C38A78BA138A2A6151B"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8854625D078A4C3BA4F86D15B64A3B32"
             {
-            "SourcePath" = "8:..\\obj\\Debug\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\obj\\Release\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_4CCF55D1BF884BAFAA097402AAC7FF74"
